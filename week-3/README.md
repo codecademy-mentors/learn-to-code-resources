@@ -1,43 +1,50 @@
-# HTML & Bootstrap basics
+# General CSS resources
 
-## HTML Elements
+http://devdocs.io/css/
 
-A comprehensive list of every HTML element and how to use it, via [HTML Dog](http://www.htmldog.com/references/html/tags/)
+## CSS Layouts:
 
-Additional HTML tutorials to help advance your learning, also via [HTML Dog](http://htmldog.com/guides/html/)
+### How can we position elements with CSS?
 
-Mozilla Developer Network's [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+*Static* — When you add an element to the page without modifying its position, the element still has a default value: static, which is to say, its position has no special properties. If something has “static” position, we call it “non-positioned.”
 
-## HTML Attributes
+*Relative* — The first of the positions we’ll talk about isn’t particularly exciting; in fact, if you add position: relative nothing will happen—yet. That’s because relative position is calculated relative to its normal (static) position, so we have to offset the element some amount in order to see change. We can add offset on any side using the top, right, bottom, and left properties. The offset will be applied calculated from the element’s original position, and it leaves a gap in the page when it is moved.
 
-A comprehensive list of all HTML attributes, via [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+*Fixed* — It’s possible to position elements so that they appear not to move at all. We do this with fixed position. When an element’s position is fixed, it receives position coordinates relative to the viewport. As with relative, we’ll need to specify top, right, bottom, and left properties; once we do, though, we can achieve cool effects like a header element that seems to stick to the top of the page.
 
-The difference between classes and IDs, via [CSS Tricks](https://css-tricks.com/the-difference-between-id-and-class/)
+*Absolute* — We’ve saved the best for last—and by best I mean “most likely to trip up even a senior developer.” Absolute position is like a blend of relative and fixed. An element that receives position: absolute will be positioned relative to its nearest positioned ancestor, rather than to the viewport.
 
-Classes & IDs explainer: [When to use a class vs an ID](https://appendto.com/2016/04/css-class-vs-id-which-one-to-use/)
+### Whoa, whoa, whoa. Now that we can position elements, this means elements could get stacked on top of each other. How can I modify that?
 
-## HTML Cheatsheets
+We can modify the stacking context of our divs using a property called *z-index*, which only works on elements that are positioned. An element’s z-index is a number that determines how high in the stack an element should be; a higher z-index means that the element will be rendered above those elements with lower z-indexes.
 
-It can be hard to remember all of the HTML elements—but never fear! We've compiled a cheatsheet of all of the best HTML cheatsheets out there; you'll never forget another element again!
+### Tutorials & Links
 
-[MozTeach HTML Cheatsheet](https://mozteach.makes.org/thimble/html-cheatsheet)
+A list of all named CSS colors and their hexidecimal equivalents, [via CSS Tricks](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/)
 
-[HTML for Beginners Cheatsheet](http://theblogstylist.com/cheat/html/)
+Need a cool color scheme? We recommend checking out [Coolors.co](https://coolors.co/app) Generate a color scheme, lock any colors you like, and then press the space bar to generate other coordinating colors.
 
-[Wired Magazine's HTML Cheatsheet](http://www.wired.com/2010/02/html_cheatsheet/)
+Free fonts available from [Google Fonts](https://fonts.google.com/). To learn how to use a Google font, re-watch the first seminar on CSS; the process is covered there in detail.
 
-## Bootstrap
+Highly recommend this tutorial on layouts, called [Learn Layout.](http://learnlayout.com/) It will help clarify each of the different CSS positions, how to use them, and how they cause elements to interact with each other. There's also a section on Flexbox if you want to get more advanced.
 
-[Bootstrap documentation](http://getbootstrap.com/getting-started/)
+An introductory CSS tutorial, from [Mozilla Developer Nework](https://developer.mozilla.org/en-US/docs/Web/CSS/Tutorials)
 
-[Bootply](http://www.bootply.com/) — Get familiar with Bootstrap by playing with this interactive editor. You won't write much code, but it may help you get the hang of how the built-in classes work.
+To take things a step further, checkout this [intermediate CSS tutorial.](http://learn.shayhowe.com/advanced-html-css/)
 
-[Built With Bootstrap](http://builtwithbootstrap.com/) — When we say Bootstrap is flexible, _we mean it!_ Check out these examples of real-world sites that all are built with Bootstrap.
+As with HTML, HTML Dog is a great resource for [intermediate & advanced CSS.](http://www.htmldog.com/guides/css/intermediate/layout/)
 
-[Bootstrap Cheatsheet by Hacker Themes](https://hackerthemes.com/bootstrap-cheatsheet/) — An interactive cheatsheet.
+### Flexbox
 
-[Single-page PDF Bootstrap Cheatsheet](https://dresssed.s3.amazonaws.com/bootstrap_cheatsheet.pdf)
+[CSS Tricks' "Guide to Flexbox"](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is one of the most authoritative resources out there explaining what flexbox is and how to use it.
 
-[What Is Bootstrap and How Do I Use It?](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
+CSS Tricks also offers [this helpful screencast](https://css-tricks.com/video-screencasts/131-tinkering-flexbox/) if you prefer to learn via video tutorials.
 
-An in-depth look at the [boostrap grid system](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works)
+[Flexbox In 5](http://flexboxin5.com/)
+
+#### Codepen Visuals
+These examples are visual aids for understanding how flex properties behave differently depending on how `flex-direction` is set on the flex container.
+
+[flex-direction: row](http://codepen.io/danasselin/full/JRYKxN/)
+
+[flex-direction: column](http://codepen.io/danasselin/full/KgdgaV/)

@@ -1,34 +1,43 @@
-## Announcement!
+# HTML & Bootstrap basics
 
-Git commands covered in [this project](https://www.codecademy.com/en/courses/learn-git/projects/js-homework) (part of the week 2 curriculum)
+## HTML Elements
 
-`git clone`
-`git push`
+A comprehensive list of every HTML element and how to use it, via [HTML Dog](http://www.htmldog.com/references/html/tags/)
 
-Are _not_ taught in the interactive lessons listed on the curriculum page.
+Additional HTML tutorials to help advance your learning, also via [HTML Dog](http://htmldog.com/guides/html/)
 
-To learn about these commands, as well as a few others that will be useful this week, put aside ~30 minutes to go through [Learn Git - Git Teamwork](https://www.codecademy.com/en/courses/learn-git/lessons/git-teamwork/exercises/remotes?action=lesson_resume)
+Mozilla Developer Network's [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 
-## git it:
+## HTML Attributes
 
-[Git Cheatsheet from GitHub](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+A comprehensive list of all HTML attributes, via [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
-[An awesome, highly recommended tutorial on git—especially helpful if you're really struggling to visualize what's happening in git](http://learngitbranching.js.org/)
+The difference between classes and IDs, via [CSS Tricks](https://css-tricks.com/the-difference-between-id-and-class/)
 
-[An in-depth explainer on version control and why we use it](https://www.atlassian.com/git/tutorials/what-is-version-control/benefits-of-version-control)
+Classes & IDs explainer: [When to use a class vs an ID](https://appendto.com/2016/04/css-class-vs-id-which-one-to-use/)
 
-[A very simple, straight-forward guide to Git](http://rogerdudler.github.io/git-guide/)
+## HTML Cheatsheets
 
-[Another Git cheat sheet, this one by the same guy who put together the guide in the link above ^^](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+It can be hard to remember all of the HTML elements—but never fear! We've compiled a cheatsheet of all of the best HTML cheatsheets out there; you'll never forget another element again!
 
-When in doubt: ask GitHub. Here's GitHub's list of its [best Git resources](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+[MozTeach HTML Cheatsheet](https://mozteach.makes.org/thimble/html-cheatsheet)
 
-[Git basics I Video](https://www.youtube.com/watch?v=8oRjP8yj2Wo)
+[HTML for Beginners Cheatsheet](http://theblogstylist.com/cheat/html/)
 
-[Git basics II Video](https://www.youtube.com/watch?v=uhtzxPU7Bz0)
+[Wired Magazine's HTML Cheatsheet](http://www.wired.com/2010/02/html_cheatsheet/)
 
-[GitRef — an official git reference; kind of like the documentation for basic git commands](http://gitref.org/)
+## Bootstrap
 
-If you want to understand what's going on "under the hood" with git, check out this [well-written article](https://codewords.recurse.com/issues/two/git-from-the-inside-out). It's technical, but well worth the read.
+[Bootstrap documentation](http://getbootstrap.com/getting-started/)
 
-["Aha Moments When Learning Git"](https://betterexplained.com/articles/aha-moments-when-learning-git/)
+[Bootply](http://www.bootply.com/) — Get familiar with Bootstrap by playing with this interactive editor. You won't write much code, but it may help you get the hang of how the built-in classes work.
+
+[Built With Bootstrap](http://builtwithbootstrap.com/) — When we say Bootstrap is flexible, _we mean it!_ Check out these examples of real-world sites that all are built with Bootstrap.
+
+[Bootstrap Cheatsheet by Hacker Themes](https://hackerthemes.com/bootstrap-cheatsheet/) — An interactive cheatsheet.
+
+[Single-page PDF Bootstrap Cheatsheet](https://dresssed.s3.amazonaws.com/bootstrap_cheatsheet.pdf)
+
+[What Is Bootstrap and How Do I Use It?](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
+
+An in-depth look at the [boostrap grid system](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works)
