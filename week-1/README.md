@@ -14,7 +14,7 @@
 
 [Command Line Power User](http://commandlinepoweruser.com/) -- A free video course to help you level up your command line skills using ZSH.
 
-[Bash Cheat Sheet](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)
+[Bash Cheat Sheet](http://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 
 [How to install a package that will let you print the file tree in your terminal](http://askubuntu.com/questions/431251/how-to-print-the-directory-tree-in-terminal)
 
