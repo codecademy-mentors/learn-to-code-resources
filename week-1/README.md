@@ -1,25 +1,6 @@
-## Launch Atom From Command line
+# Atom Resources
 
-Open your Terminal or Cygwin command line and enter `atom` followed by the name of the file you want to open. For example:
-
-```bash
-atom file.txt
-```
-If this does not work, try the following:   
-
-**Windows**  
-
-If entering `atom` from Cygwin results in the output `-bash: atom: command not found`, try `atom.cmd` instead.
-
-**Mac**  
-
-If entering `atom` from Terminal is not working for you, open Atom once from Finder, then select *Atom > Install Shell Commands*.
-
-If this still does not work, reach out to us over Slack!
-
-## Atom Hotkeys For Windows users
-
-[nwinkler's list](https://github.com/nwinkler/atom-keyboard-shortcuts)
+[Atom Hotkeys For Windows users](https://github.com/nwinkler/atom-keyboard-shortcuts)
 
 ## atom/text editor packages:
 
@@ -27,13 +8,21 @@ If this still does not work, reach out to us over Slack!
 
 [CSS Tricks Video on Installing Emmet and How It Helps](https://css-tricks.com/video-screencasts/129-emmet-awesome/)
 
-## sublime text:
+# Sublime Text Resources
 
 [Sublime Text Book, $36-$45](https://sublimetextbook.com/)
 
 [Wes Bos Blog Entries on Sublime Text](http://wesbos.com/category/sublime-text/)
 
-## command line/bash:
+# Command Line Resources
+
+[Launch Atom From Your Command Line](launch_atom_from_command_line.md)  
+
+[Customize Your Cygwin Appearance](customize_cygwin_appearance.md)  
+
+[Create a Bash Profile on Your Mac](mac_bash_profile.md)
+
+[Launch Sublime From Cygwin](launch_sublime_from_cygwin.md)
 
 [Command Line Power User](http://commandlinepoweruser.com/) -- A free video course to help you level up your command line skills using ZSH.
 
