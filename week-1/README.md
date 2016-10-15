@@ -17,6 +17,10 @@ If entering `atom` from Terminal is not working for you, open Atom once from Fin
 
 If this still does not work, reach out to us over Slack!
 
+## Atom Hotkeys For Windows users
+
+[nwinkler's list](https://github.com/nwinkler/atom-keyboard-shortcuts)
+
 ## atom/text editor packages:
 
 [Atom Text Editor Documentation](http://flight-manual.atom.io/)
