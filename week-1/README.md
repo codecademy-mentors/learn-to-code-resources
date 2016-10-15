@@ -1,8 +1,16 @@
+# Seminar Slide decks
+
+[Setting Up Your Development Environment](https://goo.gl/UOlo1c)  
+
+
+[Authoring and Version Control](https://goo.gl/CaG73C)  
+
+
 # Atom Resources
 
 [Atom Hotkeys For Windows users](https://github.com/nwinkler/atom-keyboard-shortcuts)
 
-## atom/text editor packages:
+### atom/text editor packages
 
 [Atom Text Editor Documentation](http://flight-manual.atom.io/)
 
