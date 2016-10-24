@@ -43,4 +43,21 @@ Save your **.bash_profile**, then from the command line, enter `source .bash_pro
 
 Enter `ls` to see your directory contents output in color.  
 
-See [this osxdaily article](http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/) to do even more with your LSCOLORS! 
+See [this osxdaily article](http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/) to do even more with your LSCOLORS!
+
+**STEP 6 (Optional)**
+
+To customize your prompt, you can use the `PS1` environment variable. Here's a simple, custom prompt to get you going! Write this script anywhere in your *.bash_profile*.
+
+```bash
+export PS1="\d \t \u \w $ "
+```
+
+* `\d` will display the date
+* `\t` will display the time
+* `\u` will display the user name of the current user
+* `\w` displays the working directory
+
+Don't forget to enter `source .bash_profile` after you save your script. You also may need to launch a new Terminal session to register the change. 
+
+[Learn more about the `PS1` variable here!](http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
