@@ -1,5 +1,7 @@
 # General CSS resources
 
+[Slideshow for Wednesday's seminar](https://goo.gl/j7th29)
+
 http://devdocs.io/css/
 
 ## CSS Layouts:
