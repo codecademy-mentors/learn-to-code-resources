@@ -2,6 +2,12 @@
 
 [Slideshow for Wednesday's seminar](https://goo.gl/j7th29)
 
+[Link to Wednesday's seminar](https://www.youtube.com/watch?v=gMtuUcWbMFA)
+
+[Slideshow for Saturday's seminar](https://docs.google.com/presentation/d/1FLdyR6MmuhF24DBpashHOsNV9JkVTvQn86rWkyNkSHs/pub?start=false&loop=false&delayms=30000)
+
+[Link to Saturday's Seminar video](https://www.youtube.com/watch?v=7dFjAX9jfh4)
+
 http://devdocs.io/css/
 
 ## CSS Layouts:
