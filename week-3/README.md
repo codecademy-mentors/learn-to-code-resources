@@ -44,6 +44,8 @@ CSS Tricks also offers [this helpful screencast](https://css-tricks.com/video-sc
 
 [Flexbox In 5](http://flexboxin5.com/)
 
+Here's a really sweet Flexbox game! It's always helped me out. [FLEXBOX FROGGY](http://flexboxfroggy.com/)
+
 #### Codepen Visuals
 These examples are visual aids for understanding how flex properties behave differently depending on how `flex-direction` is set on the flex container.
 
